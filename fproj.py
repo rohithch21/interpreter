@@ -20,7 +20,7 @@ while i < len(string):
     if temp == 'k':
     	count = 3
     else:
-    count = char[string[i]][0]
+        count = char[string[i]][0]
 
     setting = count
     while(count > 0):
