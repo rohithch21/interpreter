@@ -17,8 +17,7 @@ GPIO.setup(13, GPIO.OUT, initial=GPIO.LOW)
 i = 0
 while i < len(string):
     temp = string[i]
-    
-	count = char[string[i]][0]
+   	count = char[string[i]][0]
 	setting = count
 
     while(count > 0):
