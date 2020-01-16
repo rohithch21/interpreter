@@ -17,14 +17,10 @@ GPIO.setup(13, GPIO.OUT, initial=GPIO.LOW)
 i = 0
 while i < len(string):
     temp = string[i]
-    if temp == 'k':
-    	count = 1
-        setting = 3
-    else:
-        count = char[string[i]][0]
-        setting = char[string[i]][1]
-
     
+	count = char[string[i]][0]
+	setting = count
+
     while(count > 0):
         if setting == 1:
             GPIO.output(13, GPIO.HIGH)
